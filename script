@@ -1,0 +1,7 @@
+window.alert("Hello there, I don't believe we've been properly introduced, I'm Bonzi!");
+
+var name = window.prompt("What is your name?", "expand dong");
+
+window.alert("Hello, "+name+"!");
+
+document.getElementById("par1").innerHTML=name;
